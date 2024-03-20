@@ -106,7 +106,7 @@ Ora copia il contenuto delle cartelle alacritty e nvim e incollalo all'interno d
 cd ~/.config
 ```
 
-Per finire entra nel file `plugin.lua` e installa tutti i plugin con il comandi `:source %` e `:PackerSync`
+Per finire entra nel file `plugin.lua` con NeoVim utilizzando il comando `nvim ~/.config/nvim/lua/core/plugin.lua` e installa tutti i plugin con il comandi `:source %` e `:PackerSync`
 
 ---
 
