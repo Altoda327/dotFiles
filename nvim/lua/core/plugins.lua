@@ -24,6 +24,9 @@ return require('packer').startup(function(use)
   use 'saadparwaiz1/cmp_luasnip' -- snippets
   use 'rafamadriz/friendly-snippets' -- snippets
   use 'lervag/vimtex' -- latex
+  
+  -- Markdown preview
+  use {'iamcco/markdown-preview.nvim'}
   use { -- LSP
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",

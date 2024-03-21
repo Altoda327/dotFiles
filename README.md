@@ -23,7 +23,7 @@ Installate un font da [Nerd Font](https://www.nerdfonts.com/), perchè sarà nec
 La prima cosa da fare è installare [Alacritty](https://alacritty.org/) e zsh, quest'ultimo tramite il terminale con il sequente comando:
 
 ```
-brew install zsh
+brew install zshread
 ```
 
 Se avete zsh già installato, verificate quale shell avete attiva sul terminale con il comando:
@@ -154,6 +154,20 @@ ln -s $(brew --prefix zathura-pdf-poppler)/libpdf-poppler.dylib $(brew --prefix 
 ```
 
 Modifica il file vimtex.lua, impostando zathura come visualizzatore pdf.
+
+---
+
+Per installare [markdown-preview](https://github.com/iamcco/markdown-preview.nvim) utilizziamo il comando:
+
+```
+cd ~/.local/share/nvim/site/pack/packer/start/
+git clone https://github.com/iamcco/markdown-preview.nvim.git
+cd markdown-preview.nvim
+npx --yes yarn install
+npx --yes yarn build
+```
+
+Assicurati di aver installato `node.js` e `yarn`.
 
 ---
 
